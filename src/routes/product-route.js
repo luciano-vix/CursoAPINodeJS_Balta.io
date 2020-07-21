@@ -12,5 +12,5 @@ router.get('/tags/:tag', controller.getByTag);
 router.post('/', controller.post);
 router.put('/:id', controller.put);
 router.delete('/', controller.delete);
-
+// Teste modificando arquivo.
 module.exports = router;
